@@ -3,7 +3,7 @@
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 .container {
-    max-width: 950px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 @import 'blocks/promo';
@@ -11,3 +11,4 @@
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/titles';
+@import 'base/media';
