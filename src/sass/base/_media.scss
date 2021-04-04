@@ -24,6 +24,9 @@
       font-size: 16px;
     }
   }
+  .title_left {
+    font-size: 31px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -50,6 +53,9 @@
       width: 280px;
       font-size: 14px;
     }
+    &_submit {
+      width: 100%;
+    }
   }
   
   .promo {
@@ -70,6 +76,12 @@
       margin-left: 10px;
       margin-top: 30px;
     }
+  }
+  .title_left {
+    font-size: 23px;
+  }
+  .consultation__descr {
+    font-size: 18px;
   }
 }
 
@@ -115,4 +127,23 @@
       margin-top: 30px;
     }
   }
+  .title_left {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 18px;
+  }
+  .consultation__descr {
+    display: none;
+  }
+  .feed-form {
+    align-items:center;
+    width: 100%;
+    input {
+      width: 65%;
+    }
+  }
+  .button_submit {
+    width: 65%;
+  }
+
 }
